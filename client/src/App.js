@@ -1,7 +1,6 @@
 import React, { useContext, useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import TodoList from "./components/TodoList";
-// import CssBaseline from "@material-ui/core/CssBaseline";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import Container from "@material-ui/core/Container";
@@ -60,7 +59,6 @@ function App() {
 
   return (
     <div className={classes.root}>
-      {/* <CssBaseline /> */}
       <Container maxWidth="sm" className={classes.container}>
         <Typography variant="h4" component="h1">
           <Box textAlign="center">Pekerjaan Rumah Yang Perlu Dilakukan</Box>

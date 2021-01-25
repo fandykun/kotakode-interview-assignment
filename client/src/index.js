@@ -24,11 +24,9 @@ export const BaseApp = () => {
   const [todos, dispatchTodos] = useReducer(todoReducer, initialTodoState);
 
   return (
-    // <React.StrictMode>
     <TodoContext.Provider value={{ todos, dispatchTodos }}>
       <App />
     </TodoContext.Provider>
-    // </React.StrictMode>
   );
 };
 
